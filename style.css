@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400&family=Martel:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(168 164 169);
+
+    font-family: 'Martel', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 13px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.main {
+    /* background-color: rgb(141, 141, 49); */
+    width: 103vw;
+    margin: 0vw;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: yellowgreen; */
+    height: 68vh;
+    width: 72vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.name {
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 22px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons a {
+    text-decoration: none;
+
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: 300;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.btn-sm {
+    margin-left: 0px;
+    font-size: 10px;
+
+}
+
+.devPic img {
+    height: 68vh;
+}
+
+.contractform {
+    padding: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 11px;
+
+
+}
+
+.contractform h1 {
+    font-family: 'Martel', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 11px;
+
+}
+
+.contractform div {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contractform form div input {
+    /* width: 16vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+
+#emailHelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 0px;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 22px;
+    margin: 1px;
+    margin-right: 5px;
+}
+
+.blogContainer h1 {
+    margin: 40px;
+}
+
+.blogIteam {
+    margin: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.blogIteam h2 {
+    margin: 18px;
+
+}
+
+.blogIteam p {
+    margin-left: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.blogIteam .btn-sm {
+    margin-left: 18px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 5px;
+}
+
+.intro h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 36px 52px;
+}
+
+.intro p {
+    margin: -23px 52px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.skillContainer {
+    margin: 36px 52px;
+    padding: 12px;
+}
+
+.skillIteam {
+    display: flex;
+    align-items: center;
+}
+
+.skill {
+    width: 273vh;
+    height: 12px;
+    background-color: green;
+    border: 2px solid black;
+    margin: 7px;
+}
+
+.hundread {
+    width: 273vh;
+    background-color: green;
+
+}
+
+.fifty {
+    width: 130vh;
+    background-color: rgb(155, 168, 17);
+
+}
+
+.t5 {
+    width: 65vh;
+    background-color: rgb(199, 30, 30);
+
+}
+
+.sidebarGo {
+    transform: translate(-208px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+}
+
+.cross {
+    margin-left: 165px;
+    margin-top: 10px;
+}
+
+@media (max-width: 896px) {
+    /* * {
+        background-color: lightgreen;
+    } */
+
+    .devPic {
+        display: none;
+    }
+
+    /* .sidebar {
+        transform: translate(-208px, 0px);
+        position: absolute;
+    } */
+}
